@@ -3,7 +3,7 @@
 import { useState } from "react";
 import axios from 'axios';
 
-const cities: string[] = ['rudrapur', 'delhi', 'mumbai', 'pune', 'nainital', 'bengaloru'];
+const cities: string[] = ['rudrapur', 'delhi', 'mumbai', 'pune', 'nainital', 'bengaluru'];
 
 export default function Home() {
   const [place, setPlace] = useState<string>("");
